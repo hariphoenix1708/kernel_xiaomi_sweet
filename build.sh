@@ -16,7 +16,8 @@ DEFCONFIG=vendor/sweet_defconfig
 
 # Set common environment
 export KBUILD_BUILD_USER="Harikumar"
-
+export ARCH=arm64
+export SUBARCH=ARM64
 #
 # Set if do you use GCC or clang compiler
 # Default is clang compiler
